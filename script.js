@@ -56,6 +56,14 @@ for (var i=0; i<charCount; i++){
   var randomChar= flattenedFinalChars[randomPass]
   password += randomChar
 }
+
+console.log(password)//remove later,displays password
+
+document.getElementById("generate").addEventListener("click", myFunction);
+function myFunction(){
+  document.getElementById("password").innerHTML= password;
 }
-console.log(password)
-//generateBtn.addEventListener(click,)
+
+//generateBtn.addEventListener('click', myFunction) {}
+
+}
