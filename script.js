@@ -3,11 +3,6 @@ var lowercase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'
 var numericNumber = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 var specialChar = ['/','~','"','!','@','#','$','%','^','&','*','(',')','_','+','-','=','?','/',':',';','<','>','`','{','|','}','[',']',"'",'.',',']
 
-document.getElementById("generate").addEventListener("click", myFunction);
-function myFunction(){
-  document.getElementById("password").innerHTML= password;
-}
-
 var charCount = parseInt(prompt('Pick a password length of 8-128 characters'))
 
 if (charCount >= 8 && charCount <= 128){
