@@ -42,6 +42,8 @@ for (var i=0; i<charCount; i++){
   password += randomChar
 }
 
+alert('Click generate password to view your unique password! ')
+
 document.getElementById("generate").addEventListener("click", myFunction);
 function myFunction(){
   document.getElementById("password").innerHTML= password;
