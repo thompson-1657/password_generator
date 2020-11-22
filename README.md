@@ -63,3 +63,5 @@ Example password result including 25 characters, special characters, numbers, up
 
 
 Creating this application allowed me to think about interacting with the DOM through javascript. Through the addEventListener() method the user is able to interact with the application via clicks. Text was also able to be inserted into the application through utilizing the DOM. 
+
+Here is a link to the final apllication: https://thompson-1657.github.io/random_password_generator/
